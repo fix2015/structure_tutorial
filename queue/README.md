@@ -1,131 +1,75 @@
-# Queue Data Structure in JavaScript 🚀  
-Tiktok tu
+# Queue Data Structure in JavaScript 🚀
 
-A simple implementation of the **Queue** data structure in JavaScript. This repository demonstrates how to create a queue class with essential methods and explains its functionality with practical examples.  
+### Key Points to Address:
+- If any of the students faced issues with basic concepts like **arrays**, **linked lists**, or **stacks**, address those foundational concepts briefly before moving forward.
+- Explain the **Queue** data structure to everyone:
+  - A **Queue** is a **First-In, First-Out (FIFO)** structure.
+  - It works similarly to a line in a bank or supermarket where the first person in line is the first to be served.
+  - The key operations are:
+    - **enqueue(item)**: Adds an item to the back of the queue.
+    - **dequeue()**: Removes the item from the front of the queue.
+    - **peek()**: Views the item at the front without removing it.
+    - **isEmpty()**: Checks if the queue is empty.
 
----
+## 5-10 minutes: Introduction to Queue and its Key Operations
+- Explain the **Queue** data structure and its real-world analogy (like a queue in a bank).
+- Discuss key operations:
+  - **enqueue(item)**: Adds an item to the back of the queue.
+  - **dequeue()**: Removes an item from the front of the queue.
+  - **peek()**: Returns the item at the front of the queue without removing it.
+  - **isEmpty()**: Checks if the queue is empty.
 
-## What is a Queue?  
-A **Queue** is a data structure that follows the **FIFO** (First In, First Out) principle. The first element added to the queue is the first one to be removed. Think of it as a line at a coffee shop: the first person in line gets served first.  
+## 10-20 minutes: Implement a Queue Class from Scratch
+- Guide students to implement a Queue class in JavaScript.
+- The class should support the following methods:
+  - `enqueue(item)`
+  - `dequeue()`
+  - `peek()`
+  - `isEmpty()`
 
----
-
-## Features  
-- **Enqueue**: Add an item to the queue.  
-- **Dequeue**: Remove and return the first item.  
-- **Peek**: View the first item without removing it.  
-- **isEmpty**: Check if the queue is empty.  
-- **Size**: Get the number of items in the queue.  
-
----
-
-## TikTok Tutorial 🎥  
-Want to see a quick tutorial on how to build this? Check out this TikTok video:  
-[https://www.tiktok.com/@jsmentoring/video/7461216459239247136](https://www.tiktok.com/@jsmentoring/video/7461216459239247136)  
-
----
-
-## Code Implementation  
-
-Here’s the JavaScript implementation of the queue:  
+Example:
 
 ```javascript
 class Queue {
-    constructor() {
-        this.items = []; // Initialize an empty array
-    }
+  constructor() {
+    this.items = [];
+  }
 
-    // Add an item to the queue
-    enqueue(element) {
-        this.items.push(element);
-    }
+  // Adds an item to the back of the queue
+  enqueue(item) {
+    this.items.push(item);
+  }
 
-    // Remove and return the front item
-    dequeue() {
-        if (this.isEmpty()) {
-            return "Queue is empty!";
-        }
-        return this.items.shift();
+  // Removes an item from the front of the queue
+  dequeue() {
+    if (this.isEmpty()) {
+      return 'Queue is empty';
     }
+    return this.items.shift();  // Removes the first item
+  }
 
-    // Check if the queue is empty
-    isEmpty() {
-        return this.items.length === 0;
+  // Returns the item at the front without removing it
+  peek() {
+    if (this.isEmpty()) {
+      return 'Queue is empty';
     }
+    return this.items[0];  // The first item in the queue
+  }
 
-    // Peek at the front item without removing it
-    peek() {
-        if (this.isEmpty()) {
-            return "Queue is empty!";
-        }
-        return this.items[0];
-    }
-
-    // Get the size of the queue
-    size() {
-        return this.items.length;
-    }
+  // Checks if the queue is empty
+  isEmpty() {
+    return this.items.length === 0;
+  }
 }
 ```
 
----
+## 20-30 minutes: Task - Implement a Queue-based Solution for a Problem
+- Assign a task where students need to solve a problem using the Queue.
+- Example problem: Implement a system to simulate the handling of requests in a print queue.
 
-## Example Usage  
-
-```javascript
-// Initialize the queue
-const queue = new Queue();
-
-// Add items to the queue
-queue.enqueue("Task 1");
-queue.enqueue("Task 2");
-queue.enqueue("Task 3");
-
-// Peek at the front item
-console.log(queue.peek()); // Output: Task 1
-
-// Remove items from the queue
-console.log(queue.dequeue()); // Output: Task 1
-console.log(queue.dequeue()); // Output: Task 2
-
-// Check if the queue is empty
-console.log(queue.isEmpty()); // Output: false
-
-// Get the size of the queue
-console.log(queue.size()); // Output: 1
-```
-
----
-
-## Real-World Applications  
-1. **Task Scheduling**: Managing tasks in order of arrival.  
-2. **Print Queue**: Handling print jobs in a printer.  
-3. **Breadth-First Search (BFS)**: Traversing graphs or trees.  
-4. **Customer Service Systems**: Serving customers in the order they arrive.  
-
----
-
-## How to Run the Code  
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/your-username/queue-data-structure.git
-   cd queue-data-structure
-   ```
-2. Open the file `queue.js` in your favorite code editor.  
-3. Run the file using Node.js:  
-   ```bash
-   node queue.js
-   ```
-
----
-
-## Contributing  
-Contributions are welcome! If you have suggestions or want to add new features, feel free to create a pull request.  
-
----
-
-## License  
-This project is licensed under the MIT License.  
+## 30-40 minutes: Home Task - Solve a Problem Using Queue from LeetCode
+- Provide a LeetCode problem that can be solved using the Queue data structure.
+- Students can work on this problem during the session or as homework.
 
 ---
 
