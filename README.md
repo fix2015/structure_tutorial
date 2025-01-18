@@ -2,105 +2,146 @@
 
 Welcome to our comprehensive **Data Structures Tutorial**! Whether you're a beginner or have some programming experience, this tutorial series will explain key data structures in a way that's easy to understand for all levels. We’ll cover the following data structures using both **text-based explanations** and **video tutorials**, so everyone can learn in the format that suits them best.
 
----
+## Optimized Learning Plan for Data Structures
 
-## Topics Covered in This Series
+This learning plan is designed to teach you the key data structures in **12 days**. Each day focuses on a single data structure, keeping lessons under **1 hour**. The plan is broken down into three sections:
+1. **Introduction to the Data Structure** (5 minutes)
+2. **Class Implementation** (10 minutes)
+3. **Task/Problem Solving & Interview Practice** (10 minutes)
+4. **Home Task** (10 minutes)
 
-1. **Queue (FIFO - First In, First Out)**
-   - **Scenario**: Imagine you're at a coffee shop. The first person in line gets served first.
-   - **Key Methods**:
-     - `enqueue(item)`: Add an item to the queue.
-     - `dequeue()`: Remove and return the first item.
-     - `isEmpty()`: Check if the queue is empty.
-     - `peek()`: View the first item without removing it.
-   - **Example Applications**: Task scheduling, printer queues.
-   - [Github](https://github.com/fix2015/structure_queue)
-
-2. **Stack (LIFO - Last In, First Out)**
-   - **Scenario**: Think of a stack of plates where the last plate added is the first one to be removed.
-   - **Key Methods**:
-     - `push(item)`: Add an item to the top of the stack.
-     - `pop()`: Remove and return the top item.
-     - `peek()`: View the top item without removing it.
-     - `isEmpty()`: Check if the stack is empty.
-   - **Example Applications**: Undo functionality, function call stack, balancing parentheses.
-   - [Github](https://github.com/fix2015/structure_stack)
-
-3. **Linked List**
-   - **Scenario**: Think of a chain, where each link points to the next one.
-   - **Key Concepts**:
-     - Nodes containing data and a reference to the next node.
-     - Operations like add, remove, and traverse.
-   - **Example Applications**: Navigating playlists, dynamic memory allocation.
-   - [Github](https://github.com/fix2015/structure_linked_list)
-
-4. **Hash Table**
-   - **Scenario**: Like a dictionary, where a word is the key and its meaning is the value.
-   - **Key Concepts**:
-     - Storing data using a hash function.
-     - Methods: `set(key, value)`, `get(key)`, `delete(key)`.
-   - **Example Applications**: Caching, storing configuration settings.
-   - [Github](https://github.com/fix2015/hash_table)
-
-5. **Binary Search Tree (BST)**
-   - **Scenario**: Visualize it as a family tree. Every node has two children: left children are smaller than the parent, and right children are larger.
-   - **Key Methods**:
-     - `insert(value)`: Add a node to the tree.
-     - `search(value)`: Find a node.
-     - `inOrderTraversal()`: Traverse the tree in order.
-   - **Example Applications**: Search engines, database indexing.
-   - [Github](https://github.com/fix2015/structure_bst)
-
-6. **Graph**
-   - **Scenario**: Imagine a map with cities (nodes) and roads (edges).
-   - **Key Concepts**:
-     - Directed vs. undirected graphs.
-     - Traversals: Depth First Search (DFS) and Breadth First Search (BFS).
-   - **Example Applications**: Social networks, navigation systems.
-   - [Github](https://github.com/fix2015/structure_graph)
-
-7. **Priority Queue**
-   - **Scenario**: A queue where some items have higher priority, like an ER waiting room.
-   - **Key Methods**:
-     - Insert with priority.
-     - Remove the highest priority item.
-   - **Example Applications**: Task scheduling, Dijkstra’s algorithm.
-   - [Github](https://github.com/fix2015/structure_priority_queue)
-
-8. **Set**
-   - **Scenario**: A collection of unique items, like a bag of distinct marbles.
-   - **Key Methods**:
-     - `add(value)`: Add an item.
-     - `has(value)`: Check if an item exists.
-     - `delete(value)`: Remove an item.
-   - **Example Applications**: Removing duplicates, checking subsets.
-   - [Github](https://github.com/fix2015/structure_set)
-
-9. **Trie (Prefix Tree)**
-   - **Scenario**: A tree where each node represents a character in a word.
-   - **Key Methods**:
-     - `insert(word)`: Add words.
-     - `search(word)`: Check if a word exists.
-   - **Example Applications**: Autocomplete, spell checkers.
-   - [Github](https://github.com/fix2015/structure_trie)
-
-10. **Heap**
-    - **Scenario**: A pyramid shape where the largest (or smallest) value is at the top.
-    - **Key Concepts**:
-      - Max Heap and Min Heap.
-      - Operations: `insert(value)`, `extractMax()` or `extractMin()`.
-    - **Example Applications**: Priority queues, sorting algorithms.
-   - [Github](https://github.com/fix2015/structure_heap)
-
-11. **Deque (Double-Ended Queue)**
-    - **Scenario**: A flexible queue where items can be added or removed from both ends.
-    - **Key Methods**:
-      - `addFront(item)` and `addBack(item)`: Add an item to the front or back.
-      - `removeFront()` and `removeBack()`: Remove an item from the front or back.
-    - **Example Applications**: Sliding window problems, undo functionality in editors.
-   - [Github](https://github.com/fix2015/structure_deque)
+By following this structure, you'll quickly grasp each concept, implement it, and practice with real-world tasks and interview-style problems.
 
 ---
+
+### Day 1: Queue (FIFO - First In, First Out)
+- **0-5 minutes**: Check the Home Task.
+- **5-10 minutes**: Introduction to Queue and its key operations: `enqueue(item)`, `dequeue()`, `peek()`, `isEmpty()`.
+- **10-20 minutes**: Implement a Queue class from scratch.
+- **20-30 minutes**: Task - Build a task scheduler using Queue (Interview problem).
+- **30-40 minutes**: Home Task [Task](https://github.com/fix2015/structure_tutorial/tree/main/queue/task.md).
+- **Video Tutorial**: [Watch the Video](https://www.tiktok.com/@jsmentoring/video/7461216459239247136) (3m 37s).
+- [Github](https://github.com/fix2015/structure_queue)
+
+---
+
+### Day 2: Stack (LIFO - Last In, First Out)
+- **0-5 minutes**: Check the Home Task from Day 1 (Review solutions and discuss any issues).
+- **5-10 minutes**: Introduction to Stack and its key operations: `push(item)`, `pop()`, `peek()`, `isEmpty()`.
+- **10-20 minutes**: Implement a Stack class from scratch.
+- **20-30 minutes**: Task - Implement undo functionality using Stack (Interview problem).
+- **30-40 minutes**: Home Task [Task](https://github.com/fix2015/structure_tutorial/tree/main/stack/task.md).
+- **Video Tutorial**: [Watch the Video](https://www.tiktok.com/@jsmentoring/video/7461216459239247136) (5m 16s).
+- [Github](https://github.com/fix2015/structure_stack)
+
+---
+
+### Day 3: Linked List
+- **0-5 minutes**: Check the Home Task from Day 2 (Review solutions and discuss any issues).
+- **5-10 minutes**: Introduction to Linked List, nodes, and pointers.
+- **10-20 minutes**: Implement a Singly Linked List class from scratch.
+- **20-30 minutes**: Task - Build a Playlist Management System using Linked List (Interview problem).
+- **30-40 minutes**: Home Task [Task](https://github.com/fix2015/structure_tutorial/tree/main/linked_list/task.md).
+- **Video Tutorial**: [Watch the Video](#).
+- [Github](https://github.com/fix2015/structure_linked_list)
+
+---
+
+### Day 4: Hash Table
+- **0-5 minutes**: Check the Home Task from Day 3 (Review solutions and discuss any issues).
+- **5-10 minutes**: Introduction to Hash Table, hash functions, and collision handling.
+- **10-20 minutes**: Implement a Hash Table class from scratch.
+- **20-30 minutes**: Task - Implement a simple caching system using Hash Table (Interview problem).
+- **30-40 minutes**: Home Task [Task](https://github.com/fix2015/structure_tutorial/tree/main/hash_table/task.md).
+- **Video Tutorial**: [Watch the Video](#).
+- [Github](https://github.com/fix2015/hash_table)
+
+---
+
+### Day 5: Binary Search Tree (BST)
+- **0-5 minutes**: Check the Home Task from Day 4 (Review solutions and discuss any issues).
+- **5-10 minutes**: Introduction to BST and its properties.
+- **10-20 minutes**: Implement a BST class from scratch.
+- **20-30 minutes**: Task - Implement a simple search system using BST (Interview problem).
+- **30-40 minutes**: Home Task [Task](https://github.com/fix2015/structure_tutorial/tree/main/bst/task.md).
+- **Video Tutorial**: [Watch the Video](#).
+- [Github](https://github.com/fix2015/structure_bst)
+
+---
+
+### Day 6: Graph
+- **0-5 minutes**: Check the Home Task from Day 5 (Review solutions and discuss any issues).
+- **5-10 minutes**: Introduction to Graph, types (directed, undirected), and graph traversal.
+- **10-20 minutes**: Implement a Graph class from scratch.
+- **20-30 minutes**: Task - Build a Social Network using Graph (Interview problem).
+- **30-40 minutes**: Home Task [Task](https://github.com/fix2015/structure_tutorial/tree/main/graph/task.md).
+- **Video Tutorial**: [Watch the Video](#).
+- [Github](https://github.com/fix2015/structure_graph)
+
+---
+
+### Day 7: Priority Queue
+- **0-5 minutes**: Check the Home Task from Day 6 (Review solutions and discuss any issues).
+- **5-10 minutes**: Introduction to Priority Queue and its operations.
+- **10-20 minutes**: Implement a Priority Queue class from scratch.
+- **20-30 minutes**: Task - Build a Task Scheduler using Priority Queue (Interview problem).
+- **30-40 minutes**: Home Task [Task](https://github.com/fix2015/structure_tutorial/tree/main/priority_queue/task.md).
+- **Video Tutorial**: [Watch the Video](#).
+- [Github](https://github.com/fix2015/structure_priority_queue)
+
+---
+
+### Day 8: Set
+- **0-5 minutes**: Check the Home Task from Day 7 (Review solutions and discuss any issues).
+- **5-10 minutes**: Introduction to Set and its key operations: `add(value)`, `has(value)`, `delete(value)`.
+- **10-20 minutes**: Implement a Set class from scratch.
+- **20-30 minutes**: Task - Remove duplicates from an array using Set (Interview problem).
+- **30-40 minutes**: Home Task [Task](https://github.com/fix2015/structure_tutorial/tree/main/set/task.md).
+- **Video Tutorial**: [Watch the Video](#).
+- [Github](https://github.com/fix2015/structure_set)
+
+---
+
+### Day 9: Trie (Prefix Tree)
+- **0-5 minutes**: Check the Home Task from Day 8 (Review solutions and discuss any issues).
+- **5-10 minutes**: Introduction to Trie, its structure, and operations.
+- **10-20 minutes**: Implement a Trie class from scratch.
+- **20-30 minutes**: Task - Build an Autocomplete system using Trie (Interview problem).
+- **30-40 minutes**: Home Task [Task](https://github.com/fix2015/structure_tutorial/tree/main/trie/task.md).
+- **Video Tutorial**: [Watch the Video](#).
+- [Github](https://github.com/fix2015/structure_trie)
+
+---
+
+### Day 10: Heap
+- **0-5 minutes**: Check the Home Task from Day 9 (Review solutions and discuss any issues).
+- **5-10 minutes**: Introduction to Heap, Max Heap and Min Heap.
+- **10-20 minutes**: Implement a Heap class from scratch.
+- **20-30 minutes**: Task - Implement a Priority Queue using Heap (Interview problem).
+- **30-40 minutes**: Home Task [Task](https://github.com/fix2015/structure_tutorial/tree/main/heap/task.md).
+- **Video Tutorial**: [Watch the Video](#).
+- [Github](https://github.com/fix2015/structure_heap)
+
+---
+
+### Day 11: Deque (Double-Ended Queue)
+- **0-5 minutes**: Check the Home Task from Day 10 (Review solutions and discuss any issues).
+- **5-10 minutes**: Introduction to Deque and its operations: `addFront(item)`, `addBack(item)`, `removeFront()`, `removeBack()`.
+- **10-20 minutes**: Implement a Deque class from scratch.
+- **20-30 minutes**: Task - Solve a sliding window problem using Deque (Interview problem).
+- **30-40 minutes**: Home Task [Task](https://github.com/fix2015/structure_tutorial/tree/main/bst/task.md).
+- **Video Tutorial**: [Watch the Video](#).
+- [Github](https://github.com/fix2015/structure_deque)
+
+---
+
+### Day 12: Revision and Real-World Project
+- **0-5 minutes**: Check the Home Task from Day 11 (Review solutions and discuss any issues).
+- **5-10 minutes**: Quick review of all data structures covered.
+- **10-20 minutes**: Implement a real-world project using multiple data structures.
+- **20-30 minutes**: Solve practice problems (LeetCode, HackerRank, etc.) to test your skills.
+- **30-40 minutes**: Home Task - Solve a complex problem using any combination of data structures.
+- **Final Self-Assessment**: Evaluate your progress and identify areas for improvement.
 
 ## Tutorial Format
 
@@ -122,14 +163,6 @@ Data structures are fundamental to computer science and programming. They allow 
 - **Solve complex problems** more easily and effectively.
 
 Understanding how and when to use different data structures is essential for writing efficient, scalable code. Whether you’re building a web app, working on a data analysis project, or preparing for coding interviews, this knowledge will give you a significant edge.
-
----
-
-## Get Started!
-
-You can start with the **Queue** tutorial or jump straight into any topic that interests you. Whether you're just getting started with programming or looking to sharpen your skills, we’ve designed this series to accommodate all knowledge levels.
-
-Feel free to ask questions, contribute to the discussion, or suggest improvements as you go through the tutorials.
 
 ---
 
