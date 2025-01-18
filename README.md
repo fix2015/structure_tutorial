@@ -32,6 +32,7 @@ Welcome to our comprehensive **Data Structures Tutorial**! Whether you're a begi
      - Nodes containing data and a reference to the next node.
      - Operations like add, remove, and traverse.
    - **Example Applications**: Navigating playlists, dynamic memory allocation.
+   - [Github](https://github.com/fix2015/structure_linked_list)
 
 4. **Hash Table**
    - **Scenario**: Like a dictionary, where a word is the key and its meaning is the value.
@@ -39,6 +40,7 @@ Welcome to our comprehensive **Data Structures Tutorial**! Whether you're a begi
      - Storing data using a hash function.
      - Methods: `set(key, value)`, `get(key)`, `delete(key)`.
    - **Example Applications**: Caching, storing configuration settings.
+   - [Github](https://github.com/fix2015/hash_table)
 
 5. **Binary Search Tree (BST)**
    - **Scenario**: Visualize it as a family tree. Every node has two children: left children are smaller than the parent, and right children are larger.
@@ -47,6 +49,7 @@ Welcome to our comprehensive **Data Structures Tutorial**! Whether you're a begi
      - `search(value)`: Find a node.
      - `inOrderTraversal()`: Traverse the tree in order.
    - **Example Applications**: Search engines, database indexing.
+   - [Github](https://github.com/fix2015/structure_bst)
 
 6. **Graph**
    - **Scenario**: Imagine a map with cities (nodes) and roads (edges).
@@ -54,6 +57,7 @@ Welcome to our comprehensive **Data Structures Tutorial**! Whether you're a begi
      - Directed vs. undirected graphs.
      - Traversals: Depth First Search (DFS) and Breadth First Search (BFS).
    - **Example Applications**: Social networks, navigation systems.
+   - [Github](https://github.com/fix2015/structure_graph)
 
 7. **Priority Queue**
    - **Scenario**: A queue where some items have higher priority, like an ER waiting room.
@@ -61,6 +65,7 @@ Welcome to our comprehensive **Data Structures Tutorial**! Whether you're a begi
      - Insert with priority.
      - Remove the highest priority item.
    - **Example Applications**: Task scheduling, Dijkstra’s algorithm.
+   - [Github](https://github.com/fix2015/structure_priority_queue)
 
 8. **Set**
    - **Scenario**: A collection of unique items, like a bag of distinct marbles.
@@ -69,6 +74,7 @@ Welcome to our comprehensive **Data Structures Tutorial**! Whether you're a begi
      - `has(value)`: Check if an item exists.
      - `delete(value)`: Remove an item.
    - **Example Applications**: Removing duplicates, checking subsets.
+   - [Github](https://github.com/fix2015/structure_set)
 
 9. **Trie (Prefix Tree)**
    - **Scenario**: A tree where each node represents a character in a word.
@@ -76,6 +82,7 @@ Welcome to our comprehensive **Data Structures Tutorial**! Whether you're a begi
      - `insert(word)`: Add words.
      - `search(word)`: Check if a word exists.
    - **Example Applications**: Autocomplete, spell checkers.
+   - [Github](https://github.com/fix2015/structure_trie)
 
 10. **Heap**
     - **Scenario**: A pyramid shape where the largest (or smallest) value is at the top.
@@ -83,6 +90,7 @@ Welcome to our comprehensive **Data Structures Tutorial**! Whether you're a begi
       - Max Heap and Min Heap.
       - Operations: `insert(value)`, `extractMax()` or `extractMin()`.
     - **Example Applications**: Priority queues, sorting algorithms.
+   - [Github](https://github.com/fix2015/structure_heap)
 
 11. **Deque (Double-Ended Queue)**
     - **Scenario**: A flexible queue where items can be added or removed from both ends.
@@ -90,6 +98,7 @@ Welcome to our comprehensive **Data Structures Tutorial**! Whether you're a begi
       - `addFront(item)` and `addBack(item)`: Add an item to the front or back.
       - `removeFront()` and `removeBack()`: Remove an item from the front or back.
     - **Example Applications**: Sliding window problems, undo functionality in editors.
+   - [Github](https://github.com/fix2015/structure_deque)
 
 ---
 
