@@ -166,20 +166,6 @@ Understanding how and when to use different data structures is essential for wri
 
 ---
 
-## Links to Video Tutorials
-
-- **Queue (FIFO - First In, First Out) 3m 37s**: [Watch the Video](https://www.tiktok.com/@jsmentoring/video/7461216459239247136)
-- **Stack (LIFO - Last In, First Out)  5m 16s**: [Watch the Video](https://www.tiktok.com/@jsmentoring/video/7461216459239247136)
-- **Linked List**: [Watch the Video](#)
-- **Hash Table**: [Watch the Video](#)
-- **Binary Search Tree (BST)**: [Watch the Video](#)
-- **Graph**: [Watch the Video](#)
-- **Priority Queue**: [Watch the Video](#)
-- **Set**: [Watch the Video](#)
-- **Trie (Prefix Tree)**: [Watch the Video](#)
-- **Heap**: [Watch the Video](#)
-- **Deque (Double-Ended Queue)**: [Watch the Video](#)
-
 ## Connect with Me:
 - [LinkedIn - Vitalii Semianchuk](https://www.linkedin.com/in/vitalii-semianchuk-9812a786/)
 - [Telegram - @jsmentorfree](https://t.me/jsmentorfree) - We do a lot of free teaching on this channel! Join us to learn and grow in web development.
