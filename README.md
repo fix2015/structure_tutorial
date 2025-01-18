@@ -14,7 +14,7 @@ By following this structure, you'll quickly grasp each concept, implement it, an
 
 ---
 
-### Day 1: Queue (FIFO - First In, First Out)
+### Day 1: Queue (FIFO - First In, First Out) [Lesson](https://github.com/fix2015/structure_tutorial/tree/main/queue/README.md)
 - **0-5 minutes**: Check the Home Task.
 - **5-10 minutes**: Introduction to Queue and its key operations: `enqueue(item)`, `dequeue()`, `peek()`, `isEmpty()`.
 - **10-20 minutes**: Implement a Queue class from scratch.
@@ -25,7 +25,7 @@ By following this structure, you'll quickly grasp each concept, implement it, an
 
 ---
 
-### Day 2: Stack (LIFO - Last In, First Out)
+### Day 2: Stack (LIFO - Last In, First Out) [Lesson](https://github.com/fix2015/structure_tutorial/tree/main/stack/README.md)
 - **0-5 minutes**: Check the Home Task from Day 1 (Review solutions and discuss any issues).
 - **5-10 minutes**: Introduction to Stack and its key operations: `push(item)`, `pop()`, `peek()`, `isEmpty()`.
 - **10-20 minutes**: Implement a Stack class from scratch.
@@ -36,7 +36,7 @@ By following this structure, you'll quickly grasp each concept, implement it, an
 
 ---
 
-### Day 3: Linked List
+### Day 3: Linked List [Lesson](https://github.com/fix2015/structure_tutorial/tree/main/linked_list/README.md)
 - **0-5 minutes**: Check the Home Task from Day 2 (Review solutions and discuss any issues).
 - **5-10 minutes**: Introduction to Linked List, nodes, and pointers.
 - **10-20 minutes**: Implement a Singly Linked List class from scratch.
@@ -47,7 +47,7 @@ By following this structure, you'll quickly grasp each concept, implement it, an
 
 ---
 
-### Day 4: Hash Table
+### Day 4: Hash Table [Lesson](https://github.com/fix2015/structure_tutorial/tree/main/hash_table/README.md)
 - **0-5 minutes**: Check the Home Task from Day 3 (Review solutions and discuss any issues).
 - **5-10 minutes**: Introduction to Hash Table, hash functions, and collision handling.
 - **10-20 minutes**: Implement a Hash Table class from scratch.
@@ -58,7 +58,7 @@ By following this structure, you'll quickly grasp each concept, implement it, an
 
 ---
 
-### Day 5: Binary Search Tree (BST)
+### Day 5: Binary Search Tree (BST) [Lesson](https://github.com/fix2015/structure_tutorial/tree/main/bst/README.md)
 - **0-5 minutes**: Check the Home Task from Day 4 (Review solutions and discuss any issues).
 - **5-10 minutes**: Introduction to BST and its properties.
 - **10-20 minutes**: Implement a BST class from scratch.
@@ -69,7 +69,7 @@ By following this structure, you'll quickly grasp each concept, implement it, an
 
 ---
 
-### Day 6: Graph
+### Day 6: Graph [Lesson](https://github.com/fix2015/structure_tutorial/tree/main/graph/README.md)
 - **0-5 minutes**: Check the Home Task from Day 5 (Review solutions and discuss any issues).
 - **5-10 minutes**: Introduction to Graph, types (directed, undirected), and graph traversal.
 - **10-20 minutes**: Implement a Graph class from scratch.
@@ -80,7 +80,7 @@ By following this structure, you'll quickly grasp each concept, implement it, an
 
 ---
 
-### Day 7: Priority Queue
+### Day 7: Priority Queue [Lesson](https://github.com/fix2015/structure_tutorial/tree/main/priority_queue/README.md)
 - **0-5 minutes**: Check the Home Task from Day 6 (Review solutions and discuss any issues).
 - **5-10 minutes**: Introduction to Priority Queue and its operations.
 - **10-20 minutes**: Implement a Priority Queue class from scratch.
@@ -91,7 +91,7 @@ By following this structure, you'll quickly grasp each concept, implement it, an
 
 ---
 
-### Day 8: Set
+### Day 8: Set [Lesson](https://github.com/fix2015/structure_tutorial/tree/main/set/README.md)
 - **0-5 minutes**: Check the Home Task from Day 7 (Review solutions and discuss any issues).
 - **5-10 minutes**: Introduction to Set and its key operations: `add(value)`, `has(value)`, `delete(value)`.
 - **10-20 minutes**: Implement a Set class from scratch.
@@ -102,7 +102,7 @@ By following this structure, you'll quickly grasp each concept, implement it, an
 
 ---
 
-### Day 9: Trie (Prefix Tree)
+### Day 9: Trie (Prefix Tree) [Lesson](https://github.com/fix2015/structure_tutorial/tree/main/trie/README.md)
 - **0-5 minutes**: Check the Home Task from Day 8 (Review solutions and discuss any issues).
 - **5-10 minutes**: Introduction to Trie, its structure, and operations.
 - **10-20 minutes**: Implement a Trie class from scratch.
@@ -113,7 +113,7 @@ By following this structure, you'll quickly grasp each concept, implement it, an
 
 ---
 
-### Day 10: Heap
+### Day 10: Heap [Lesson](https://github.com/fix2015/structure_tutorial/tree/main/heap/README.md)
 - **0-5 minutes**: Check the Home Task from Day 9 (Review solutions and discuss any issues).
 - **5-10 minutes**: Introduction to Heap, Max Heap and Min Heap.
 - **10-20 minutes**: Implement a Heap class from scratch.
@@ -124,7 +124,7 @@ By following this structure, you'll quickly grasp each concept, implement it, an
 
 ---
 
-### Day 11: Deque (Double-Ended Queue)
+### Day 11: Deque (Double-Ended Queue) [Lesson](https://github.com/fix2015/structure_tutorial/tree/main/bst/README.md)
 - **0-5 minutes**: Check the Home Task from Day 10 (Review solutions and discuss any issues).
 - **5-10 minutes**: Introduction to Deque and its operations: `addFront(item)`, `addBack(item)`, `removeFront()`, `removeBack()`.
 - **10-20 minutes**: Implement a Deque class from scratch.
