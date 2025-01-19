@@ -124,7 +124,7 @@ By following this structure, you'll quickly grasp each concept, implement it, an
 
 ---
 
-### Day 11: Deque (Double-Ended Queue) [Lesson](https://github.com/fix2015/structure_tutorial/tree/main/bst/README.md)
+### Day 11: Deque (Double-Ended Queue) [Lesson](https://github.com/fix2015/structure_tutorial/tree/main/deque/README.md)
 - **0-5 minutes**: Check the Home Task from Day 10 (Review solutions and discuss any issues).
 - **5-10 minutes**: Introduction to Deque and its operations: `addFront(item)`, `addBack(item)`, `removeFront()`, `removeBack()`.
 - **10-20 minutes**: Implement a Deque class from scratch.
