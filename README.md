@@ -75,7 +75,7 @@ By following this structure, you'll quickly grasp each concept, implement it, an
 - **10-20 minutes**: Implement a Graph class from scratch.
 - **20-30 minutes**: Task - Build a Social Network using Graph (Interview problem).
 - **30-40 minutes**: Home Task [Task](https://github.com/fix2015/structure_tutorial/tree/main/graph/task.md).
-- **Video Tutorial**: [Watch the Video](#).
+- **Video Tutorial**: [Watch the Video](https://www.tiktok.com/@jsmentoring/video/7461640836569140513).
 - [Github](https://github.com/fix2015/structure_graph)
 
 ---
