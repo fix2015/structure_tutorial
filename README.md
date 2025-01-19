@@ -64,7 +64,7 @@ By following this structure, you'll quickly grasp each concept, implement it, an
 - **10-20 minutes**: Implement a BST class from scratch.
 - **20-30 minutes**: Task - Implement a simple search system using BST (Interview problem).
 - **30-40 minutes**: Home Task [Task](https://github.com/fix2015/structure_tutorial/tree/main/bst/task.md).
-- **Video Tutorial**: [Watch the Video](#).
+- **Video Tutorial**: [Watch the Video](https://www.tiktok.com/@jsmentoring/video/7461637491943116065).
 - [Github](https://github.com/fix2015/structure_bst)
 
 ---
