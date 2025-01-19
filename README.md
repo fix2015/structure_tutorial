@@ -130,7 +130,7 @@ By following this structure, you'll quickly grasp each concept, implement it, an
 - **10-20 minutes**: Implement a Deque class from scratch.
 - **20-30 minutes**: Task - Solve a sliding window problem using Deque (Interview problem).
 - **30-40 minutes**: Home Task [Task](https://github.com/fix2015/structure_tutorial/tree/main/bst/task.md).
-- **Video Tutorial**: [Watch the Video](#).
+- **Video Tutorial**: [Watch the Video](https://www.tiktok.com/@jsmentoring/video/7461661130629451040).
 - [Github](https://github.com/fix2015/structure_deque)
 
 ---
