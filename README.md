@@ -53,7 +53,7 @@ By following this structure, you'll quickly grasp each concept, implement it, an
 - **10-20 minutes**: Implement a Hash Table class from scratch.
 - **20-30 minutes**: Task - Implement a simple caching system using Hash Table (Interview problem).
 - **30-40 minutes**: Home Task [Task](https://github.com/fix2015/structure_tutorial/tree/main/hash_table/task.md).
-- **Video Tutorial**: [Watch the Video](#).
+- **Video Tutorial**: [Watch the Video](https://www.tiktok.com/@jsmentoring/video/7461633571938258208).
 - [Github](https://github.com/fix2015/hash_table)
 
 ---
