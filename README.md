@@ -108,7 +108,7 @@ By following this structure, you'll quickly grasp each concept, implement it, an
 - **10-20 minutes**: Implement a Trie class from scratch.
 - **20-30 minutes**: Task - Build an Autocomplete system using Trie (Interview problem).
 - **30-40 minutes**: Home Task [Task](https://github.com/fix2015/structure_tutorial/tree/main/trie/task.md).
-- **Video Tutorial**: [Watch the Video](#).
+- **Video Tutorial**: [Watch the Video](https://www.tiktok.com/@jsmentoring/video/7461653464670670112).
 - [Github](https://github.com/fix2015/structure_trie)
 
 ---
