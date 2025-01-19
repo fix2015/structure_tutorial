@@ -80,6 +80,26 @@ class Trie {
     return true;
   }
 }
+
+// Create a new Trie
+const trie = new Trie();
+
+// Insert words into the Trie
+trie.insert("apple");
+trie.insert("app");
+trie.insert("bat");
+trie.insert("ball");
+
+// Search for words
+console.log(trie.search("apple")); // true (word exists)
+console.log(trie.search("app"));   // true (word exists)
+console.log(trie.search("bat"));   // true (word exists)
+console.log(trie.search("bake"));  // false (word doesn't exist)
+
+// Check for prefixes
+console.log(trie.startsWith("app"));  // true (there are words starting with "app")
+console.log(trie.startsWith("ba"));   // true (there are words starting with "ba")
+console.log(trie.startsWith("cat"));  // false (no words start with "cat")
 ```
 
 ## 20-30 minutes: Task - Implement a Trie-based Solution for a Problem
