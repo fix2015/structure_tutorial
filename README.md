@@ -21,7 +21,7 @@ By following this structure, you'll quickly grasp each concept, implement it, an
 - **20-30 minutes**: Task - Build a task scheduler using Queue (Interview problem).
 - **30-40 minutes**: Home Task [Task](https://github.com/fix2015/structure_tutorial/tree/main/queue/task.md).
 - **Video Tutorial**: [Watch the Video](https://www.tiktok.com/@jsmentoring/video/7461216459239247136) (3m 37s).
-- **Queue structure example** - Customer Support System [Watch the Video](https://www.tiktok.com/@jsmentoring/video/7466927598119996704)
+- **Queue structure example - Customer Support System** [Watch the Video](https://www.tiktok.com/@jsmentoring/video/7466927598119996704)
 - **Queue structure example - Task Scheduler for Background Jobs** - Customer Support System [Watch the Video](https://www.tiktok.com/@jsmentoring/video/7466929364978961697)
 - [Github](https://github.com/fix2015/structure_queue)
 
