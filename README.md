@@ -23,6 +23,8 @@ By following this structure, you'll quickly grasp each concept, implement it, an
 - **Video Tutorial**: [Watch the Video](https://www.tiktok.com/@jsmentoring/video/7461216459239247136) (3m 37s).
 - **Queue structure example - Customer Support System** [Watch the Video](https://www.tiktok.com/@jsmentoring/video/7466927598119996704)
 - **Queue structure example - Task Scheduler for Background Jobs** - Customer Support System [Watch the Video](https://www.tiktok.com/@jsmentoring/video/7466929364978961697)
+- **Queue structure example - Printing Jobs in a Printer Queue** - Customer Support System [Watch the Video](https://www.tiktok.com/@jsmentoring/video/7466930503522848032)
+
 - [Github](https://github.com/fix2015/structure_queue)
 
 ---
