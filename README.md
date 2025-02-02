@@ -48,6 +48,7 @@ By following this structure, you'll quickly grasp each concept, implement it, an
 - **30-40 minutes**: Home Task [Task](https://github.com/fix2015/structure_tutorial/tree/main/linked_list/task.md).
 - **Video Tutorial**: [Watch the Video](https://www.tiktok.com/@jsmentoring/video/7461629272965319969).
 - **Linked list example - todo list** [Watch the Video](https://www.tiktok.com/@jsmentoring/video/7466932230309383456)
+- **Linked list example - Browser tabs** [Watch the Video](https://www.tiktok.com/@jsmentoring/video/7466933609023163680)
 - [Github](https://github.com/fix2015/structure_linked_list)
 
 ---
