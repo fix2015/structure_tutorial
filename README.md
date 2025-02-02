@@ -36,6 +36,7 @@ By following this structure, you'll quickly grasp each concept, implement it, an
 - **20-30 minutes**: Task - Implement undo functionality using Stack (Interview problem).
 - **30-40 minutes**: Home Task [Task](https://github.com/fix2015/structure_tutorial/tree/main/stack/task.md).
 - **Video Tutorial**: [Watch the Video](https://www.tiktok.com/@jsmentoring/video/7461216459239247136) (5m 16s).
+- **Stack data structure example -  Web browser history**: [Watch the Video](https://www.tiktok.com/@jsmentoring/video/7466931370267299104)
 - [Github](https://github.com/fix2015/structure_stack)
 
 ---
